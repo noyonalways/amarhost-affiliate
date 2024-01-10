@@ -1,0 +1,121 @@
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single-service h4 {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 600;
+        position: relative;
+        padding: 12px 15px;
+        margin: 4px 0;
+    }
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu { 
+        display: none; 
+        -webkit-transition: .3s; 
+        -o-transition: .3s; 
+        transition: .3s;
+    }
+	.navbar .nav-item:hover .dropdown-menu{ 
+        display: block;
+    }
+	.navbar .nav-item .dropdown-menu{
+         margin-top:0; 
+    }
+    .dropdown-menu > li > a:hover {
+        background-color: var(--red-color);
+        color: #fff !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-menu-area {
+        background-color: transparent;
+        padding: 15px 0;
+    }
+    .header-menu-area .navbar-light .navbar-nav .nav-link {
+        color: #333;
+    }
+    .header-area, .header-top-area {
+        display: none;
+    }
+    .header-menu-area .navbar-brand{
+        display: block;
+    }
+    .banner-area h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .single-feature {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        padding: 20px;
+    }
+    .single-service h4 {
+        font-size: 18px;
+    }
+    .single-feature h4 {
+        font-size: 20px;
+    }
+    .header-menu-area .navbar-light .navbar-nav .nav-link.client {
+        background-color: transparent;
+    }
+    .header-menu-area .navbar-nav .login {
+        display: block;
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-menu-area {
+        background-color: transparent;
+        padding: 15px 0;
+    }
+    .header-menu-area .navbar-light .navbar-nav .nav-link {
+        color: #333;
+    }
+    .header-area, .header-top-area {
+        display: none;
+    }
+    .header-menu-area .navbar-brand{
+        display: block;
+    }
+    .banner-area {
+        padding: 30px 0 0;
+        text-align: center;
+    }
+    .banner-area h2 {
+        font-size: 24px;
+    }
+    .banner-area h4 {
+        font-size: 16px;
+    }
+    .banner-area img {
+        margin-top: 20px;
+    }
+    .single-feature h4 {
+        font-size: 22px;
+    }
+    .header-menu-area .navbar-light .navbar-nav .nav-link.client {
+        background-color: transparent;
+    }
+    .header-menu-area .navbar-nav .login {
+        display: block;
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .single-offer:first-child {
+        margin-bottom: 20px;
+    }
+    .banner-area.domain-page form input[type="text"] {
+        width: 70%;
+    }
+}
