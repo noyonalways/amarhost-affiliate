@@ -2,7 +2,7 @@
    error_reporting(0); 
 
    // Affiliate Id
-   $affiliate_id = '136';
+   $affiliate_id = '1296';
 
    // Site Name
    $name = 'AmarHoster';
